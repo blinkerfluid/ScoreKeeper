@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Score Keeper</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="teams">
+        <item>49ers</item>
+        <item>Bears</item>
+        <item>Bengals</item>
+        <item>Bills</item>
+        <item>Broncos</item>
+        <item>Browns</item>
+        <item>Buccaneers</item>
+        <item>Cardinals</item>
+        <item>Chargers</item>
+        <item>Chiefs</item>
+        <item>Colts</item>
+        <item>Dolphins</item>
+        <item>Eagles</item>
+        <item>Falcons</item>
+        <item>Giants</item>
+        <item>Jaguars</item>
+        <item>Jets</item>
+        <item>Lions</item>
+        <item>Packers</item>
+        <item>Panthers</item>
+        <item>Patriots</item>
+        <item>Raiders</item>
+        <item>Rams</item>
+        <item>Ravens</item>
+        <item>Redskins</item>
+        <item>Saints</item>
+        <item>Seahawks</item>
+        <item>Steelers</item>
+        <item>Texans</item>
+        <item>Titans</item>
+        <item>Vikings</item>
+    </string-array>
+</resources>
