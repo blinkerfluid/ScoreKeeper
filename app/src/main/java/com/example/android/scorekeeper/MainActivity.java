@@ -24,8 +24,8 @@ public class MainActivity extends AppCompatActivity {
         Spinner mySpinner = (Spinner) findViewById(R.id.spinnerTeams);
 
         ArrayAdapter<String> myAdapter = new ArrayAdapter<String>(MainActivity.this,
-                android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.teams));
-        myAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+                R.layout.spinner_item, getResources().getStringArray(R.array.teams));
+        myAdapter.setDropDownViewResource(R.layout.spinner_dropdown_item);
         mySpinner.setAdapter(myAdapter);
 
     }

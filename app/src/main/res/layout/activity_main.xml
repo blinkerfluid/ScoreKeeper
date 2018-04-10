@@ -23,7 +23,7 @@
                 android:gravity="center"
                 android:padding="16dp"
                 android:text="Cowboys"
-                android:textColor="#616161"
+                android:textColor="#003594"
                 android:textSize="24sp" />
 
             <TextView
@@ -40,8 +40,8 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="addSixForCowboys"
                 android:text="Touchdown" />
@@ -49,8 +49,8 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="addOneForCowboys"
                 android:text="Extra Point" />
@@ -58,8 +58,8 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="addTwoForCowboys"
                 android:text="2 Pt Conversion" />
@@ -67,8 +67,8 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="addThreeForCowboys"
                 android:text="Field Goal" />
@@ -76,8 +76,8 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="addTwoForCowboys"
                 android:text="Safety" />
@@ -101,10 +101,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="64dp"
                 android:fontFamily="sans-serif-medium"
-                android:padding="24dp"
                 android:gravity="center"
                 android:textColor="#616161"
-                android:textSize="24sp" />
+                android:textAlignment="center"/>
 
             <TextView
                 android:id="@+id/team_b_score"
@@ -120,8 +119,8 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="addSixForOtherTeam"
                 android:text="Touchdown" />
@@ -129,8 +128,8 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="addOneForOtherTeam"
                 android:text="Extra Point" />
@@ -138,8 +137,8 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="addTwoForOtherTeam"
                 android:text="2 Pt Conversion" />
@@ -147,8 +146,8 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="addThreeForOtherTeam"
                 android:text="Field Goal" />
@@ -156,8 +155,8 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="addTwoForOtherTeam"
                 android:text="Safety" />
