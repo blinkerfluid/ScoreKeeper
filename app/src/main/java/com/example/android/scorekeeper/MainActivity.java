@@ -9,8 +9,10 @@ import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+
 public class MainActivity extends AppCompatActivity {
-    //Tracks the score for Cowboys
+
+        //Tracks the score for Cowboys
     int scoreCowboys = 0;
 
     //Tracks the score for other team
@@ -142,4 +144,5 @@ public class MainActivity extends AppCompatActivity {
         displayForOtherTeam(scoreOtherTeam);
 
     }
+
 }
